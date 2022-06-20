@@ -1,0 +1,43 @@
+#container{
+    display: grid;
+    grid-template-areas:
+    'header header header header'
+    'main1 main2 main3 sidebar1'
+    'main4 main5 main6 sidebar2'
+    'main7 main8 main9 sidebar3'
+    'main10 main0 main11 sidebar4'
+    'equal equal equal equal';
+    width: 97vw;
+    height: 97vh;
+    background-color: black;
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+body{    background-color: black;
+}
+div{
+}
+#answerInp{
+    grid-area: header;
+    font-size: large;
+}
+.btns{
+    border: 2px solid white;
+    height: 100%;
+    width: 100%;
+    text-align:center;
+    color: black;
+    background-color: orange;
+    margin:0%;
+    padding: 0%;
+    font-weight: bold;
+}
+#equal{height: 20vh;
+    width: 100%;
+    text-align:center;
+    color: black;
+    background-color: orange;
+    grid-area: equal;
+    border: 2px solid white;
+    font-weight: bold;
+}
